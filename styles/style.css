@@ -119,19 +119,20 @@ nav .nav-box ul li .btn:hover {
 }
 
 .banner > .banner-box > .contact-me {
-  background: black;
-  padding: 1rem;
   border: none;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+  background: none;
 }
 
 .banner .banner-box .contact-me a {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: black;
   color: white;
   text-decoration: none;
 }
 
-.banner > .banner-box > .contact-me:hover {
+.banner > .banner-box > .contact-me a:hover {
   background: rgba(0, 0, 0, 0.85);
 }
 
@@ -223,25 +224,27 @@ main .my-inspiration .video iframe {
 }
 
 /* my current target section styles */
-main .current-target .title,
-main .current-target .description {
+main .current-target > .title,
+main .current-target > .description {
   margin-bottom: 2rem;
+  width: 80%;
+  text-align: center;
 }
 
 main .current-target .content-box {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 main .current-target .content-box .content {
   box-sizing: border-box;
   padding: 1.5rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 main .current-target .content-box .content .title {
-  margin-top: 1rem;
+  margin: 1rem 0;
   font-size: 1rem;
   font-weight: 800;
 }
@@ -338,4 +341,8 @@ footer .footer-box .icons ul {
 
 footer .footer-box .icons ul li a img {
   height: 2rem;
+}
+
+.me:hover {
+  text-decoration: underline;
 }
