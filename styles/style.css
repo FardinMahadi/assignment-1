@@ -224,6 +224,10 @@ main .my-inspiration .video iframe {
 }
 
 /* my current target section styles */
+main .current-target > .title {
+  font-size: 2rem;
+}
+
 main .current-target > .title,
 main .current-target > .description {
   margin-bottom: 2rem;
@@ -266,6 +270,42 @@ main .current-target .content-box .css {
 
 main .current-target .content-box .javascript {
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* next target section styles */
+main .next-target .title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+main .next-target .content .title,
+main .next-target .content .description {
+  margin-bottom: 1rem;
+}
+
+main .next-target .content img {
+  width: 10rem;
+}
+
+main .next-target .content {
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+main .next-target .content > .text a {
+  font-weight: 700;
+  color: black;
+}
+
+main .next-target .content .text a:hover {
+  text-decoration: none;
 }
 
 /* support section styles */
