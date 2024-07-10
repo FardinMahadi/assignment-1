@@ -27,15 +27,15 @@ body {
   font-weight: 600;
 }
 
-.description-font {
-  font-size: 0.8rem;
-  color: rgb(13, 19, 33);
-  margin-bottom: 1rem;
-}
-
 .secondary-title {
   color: rgba(13, 19, 33, 0.7);
   font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.description-font {
+  font-size: 0.8rem;
+  color: rgb(13, 19, 33);
   margin-bottom: 1rem;
 }
 
@@ -47,6 +47,10 @@ body {
 
 .secondary-btn:hover {
   text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* header styles */
@@ -108,7 +112,6 @@ nav .nav-box ul li .btn:hover {
   justify-content: center;
   gap: 1rem;
   width: 50%;
-  text-align: center;
 }
 
 .banner .banner-box .logo img {
@@ -141,14 +144,14 @@ main {
 main > section {
   margin-top: 5rem;
   width: 80vw;
-}
-
-main > .why-web-development {
-  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+main > .why-web-development {
+  margin-top: 10rem;
   border-radius: 2rem;
   background: rgba(13, 19, 33, 0.02);
 }
@@ -167,7 +170,6 @@ main > .why-web-development > .section-box > .title {
 }
 
 main > .why-web-development > .section-box > .description {
-  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -188,10 +190,6 @@ main > .why-web-development > .section-box > .content > img {
 
 /* my inspiration section styles */
 main .my-inspiration {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
 }
 
@@ -202,7 +200,6 @@ main .my-inspiration .title {
 
 main .my-inspiration .description {
   width: 80%;
-  text-align: center;
 }
 
 main .my-inspiration .video {
@@ -219,4 +216,47 @@ main .my-inspiration .video {
 main .my-inspiration .video iframe {
   width: 100%;
   height: 30rem;
+}
+
+/* my current target section styles */
+main .current-target .title,
+main .current-target .description {
+  margin-bottom: 2rem;
+}
+
+main .current-target .content-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+main .current-target .content-box .content {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+main .current-target .content-box .content .title {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+main .current-target .content-box .content a {
+  display: block;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+main .current-target .content-box .html {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+main .current-target .content-box .css {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+main .current-target .content-box .javascript {
+  background: rgba(255, 223, 0, 0.05);
 }
