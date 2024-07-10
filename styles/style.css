@@ -175,6 +175,7 @@ main > .why-web-development > .section-box > .content {
   border-radius: 2rem;
   box-sizing: border-box;
   padding: 2rem 4rem;
+  margin-top: 3rem;
 }
 
 main > .why-web-development > .section-box > .content > img {
