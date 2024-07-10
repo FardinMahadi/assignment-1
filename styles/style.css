@@ -120,11 +120,15 @@ nav .nav-box ul li .btn:hover {
 
 .banner > .banner-box > .contact-me {
   background: black;
-  color: white;
   padding: 1rem;
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
+}
+
+.banner .banner-box .contact-me a {
+  color: white;
+  text-decoration: none;
 }
 
 .banner > .banner-box > .contact-me:hover {
@@ -259,4 +263,79 @@ main .current-target .content-box .css {
 
 main .current-target .content-box .javascript {
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* support section styles */
+main .support {
+  box-sizing: border-box;
+  padding: 4rem 12rem;
+  border-radius: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url("../resources/assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 20rem; */
+}
+
+main .support .title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+main .support .description {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+main .support .input input {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+main .support .input[type="text"] {
+  width: 3342px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 0.4);
+}
+
+main .support .input[type="submit"] {
+  color: rgb(13, 19, 33);
+  font-weight: 600;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 5rem;
+}
+
+footer .footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 1rem 0;
+}
+
+footer .footer-box h1 {
+  font-size: 1rem;
+  color: rgb(13, 19, 33);
+}
+
+footer .footer-box .icons ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+footer .footer-box .icons ul li a img {
+  height: 2rem;
 }
