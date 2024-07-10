@@ -111,6 +111,10 @@ nav .nav-box ul li .btn:hover {
   text-align: center;
 }
 
+.banner .banner-box .logo img {
+  height: 10rem;
+}
+
 .banner > .banner-box > .contact-me {
   background: black;
   color: white;
@@ -214,5 +218,5 @@ main .my-inspiration .video {
 
 main .my-inspiration .video iframe {
   width: 100%;
-  height: 35rem;
+  height: 30rem;
 }
