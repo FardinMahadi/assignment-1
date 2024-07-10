@@ -27,6 +27,28 @@ body {
   font-weight: 600;
 }
 
+.description-font {
+  font-size: 0.8rem;
+  color: rgb(13, 19, 33);
+  margin-bottom: 1rem;
+}
+
+.secondary-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.secondary-btn {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid black;
+  font-size: 0.8rem;
+}
+
+.secondary-btn:hover {
+  text-decoration: underline;
+}
+
 /* header styles */
 header {
   height: 100vh;
@@ -100,4 +122,61 @@ nav .nav-box ul li .btn:hover {
 
 .banner > .banner-box > .contact-me:hover {
   background: rgba(0, 0, 0, 0.85);
+}
+
+/* main section styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: 100vw;
+}
+
+main section {
+  margin-top: 5rem;
+  width: 80vw;
+}
+
+main > .why-web-development {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+main > .why-web-development > .section-box {
+  padding: 6rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main > .why-web-development > .section-box > .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main > .why-web-development > .section-box > .description {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main > .why-web-development > .section-box > .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  background: white;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  padding: 2rem 4rem;
+}
+
+main > .why-web-development > .section-box > .content > img {
+  height: 10rem;
 }
